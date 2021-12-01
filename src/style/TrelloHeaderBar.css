@@ -1,0 +1,66 @@
+.HeaderApp {
+    background: #606469;
+}
+
+#Header{
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 2px solid #eaebed;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 10px;
+}
+
+.logo img{
+    padding-right: 6px;
+    height: 40px;
+    width: 45px;
+}
+
+.logo h4{
+    color: darkblue;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.button-container {
+    margin: 70px;
+    padding: 30px;
+}
+
+.searchBar-container{
+    margin: 70px;
+    background: rgb(219, 215, 213);
+    width: 50%;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.searchBar-container input{
+    background: rgb(219, 215, 213);
+    padding: 8px 4px;
+    outline: none;
+    border: none;
+    width: 80%;
+    border-radius: 6px;
+}
+
+.addButton-container{
+    margin: 50px;
+    background: #007bff;
+    width: 10%;
+    padding: 0px;
+    display: flex block;
+    align-items: center;
+    border-radius: 0px;
+}
